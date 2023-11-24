@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/logo.png">
+        <title>Fitness</title>
+    </head>
+<body>
+    <nav>
+        <div class="nav-logo" onmouseover="makeBigger()" onmouseout="makeSmaller()">
+            <a href="#">
+                <img id="logo" src="images/logo.png" alt="Logo">
+            </a>
+        </div>
+    
+        <button id="navbar-toggler" onclick="toggleNav()">
+            <i class="ri-menu-line"></i> 
+        </button>
+    
+        <ul class="nav-links">
+            <li class="link"><a href="index.html">Home</a></li>
+            <li id="link1" class="link"><a href="pricing.html">Pricing</a></li>
+            <li id="link2" class="link"><a href="contact.html">Contact</a></li>
+            <li id="link3" class="link"><a href="quiz.html">Quiz</a></li>
+        </ul>
+        <a href="registration.html"><button type="button" class="btn btn-primary-custom">Login</button></a>
+    </nav>
+
+
+    <section class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <h2 class="header">PROJECT PRICING PLANS</h2>
+        <p class="sub-header">
+            Our pricing plans come with various membership tiers, each tailored to cater to different projects and
+            class+ code types.
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Basic Plan</h4>
+                    <h3>20$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Access to the gym facilities during regular hours.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Personalized workout plans from certified trainers.
+                    </p>
+                </div>
+                <button class="btnik">Buy Now</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Gold Plan</h4>
+                    <h3>50$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Extended gym access, including early morning and late evening hours.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Group fitness classes, including yoga and spin classes.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Monthly health and fitness assessments.
+                    </p>
+                </div>
+                <button class="btnik">Buy Now</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Diamond Plan</h4>
+                    <h3>100$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        24/7 unlimited access to the gym facilities.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Personal training sessions tailored to your fitness goals.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Personal Coaching
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Access to all group fitness classes, including specialty classes.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Nutritional counseling and meal planning.
+                    </p>
+                </div>
+                <button class="btnik">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="fitness-services">
+        <div class="fitness-heading">
+            <h1>Expert <span>trainer</span> included in<span> Diamond </span> plan</h1>
+            <p>Our staff includes amazing professionals that have an eye for crossfit.</p>
+    
+        </div>
+       
+        <div class="fitness-main-service expert-main-use">
+            <div class="fitness-inner-content exper-use">
+                <div class="fitness-images">
+                    <img src="images/gym/expert1.jpg" alt="">
+                </div>
+                <div class="fitness-inner-headings">
+                    <h1>Chris Bumstead</h1>
+                    <p>Bend, Stretch, and Evolve – Crafting Flexibility for a Body in Motion.</p>
+                <button class="fitness-btn">get in touch</button>
+                </div>
+                
+            </div>
+
+            <div class="fitness-inner-content exper-use">
+                <div class="fitness-images">
+                    <img src="images/gym/expert2.png" alt="">
+                </div>
+                <div class="fitness-inner-headings">
+                    <h1>Ernest Khalimov</h1>
+                    <p>Transforming Lives through Fitness, Mindfulness, and the Power of Personal Growth</p>
+                <button class="fitness-btn">get in touch</button>
+                </div>
+            </div>
+
+            <div class="fitness-inner-content exper-use">
+                <div class="fitness-images">
+                    <img src="images/gym/expert3.png" alt="">
+                </div>
+                <div class="fitness-inner-headings">
+                    <h1>Mike O'Hearn</h1>
+                    <p>Fueling Your Heart's Desire for Fitness, One Beat at a Time.</p>
+                <button class="fitness-btn">get in touch</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="column">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="socials">
+                <a href="#"><i class="ri-youtube-line"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-twitter-line"></i></a>
+            </div>
+        </div>
+        <div class="column">
+            <h4>Company</h4>
+            <a href="#">Business</a>
+            <a href="#">Partnership</a>
+            <a href="#">Network</a>
+        </div>
+        <div class="column">
+            <h4>About Us</h4>
+            <a href="#">Blogs</a>
+            <a href="#">Channels</a>
+            <a href="#">Sponsors</a>
+        </div>
+        <div class="column">
+            <h4>Contact</h4>
+            <a href="#">Contact Us</a>
+            <a href="#">Privicy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        Copyright © 2023 Victus. All Rights Reserved.
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
