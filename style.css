@@ -27,7 +27,7 @@ body{
     cursor: pointer;
     font-size: 1.5rem;
     color: #fff;
-    display: none; /* Hide initially for larger screens */
+    display: none; 
 }
 nav {
     max-width: 1200px;
@@ -383,7 +383,7 @@ footer .column > a:hover{
     }
    
     #navbar-toggler {
-            display: block; /* Display for smaller screens */
+            display: block; 
         }
 
         .nav-links {
@@ -473,7 +473,7 @@ footer .column > a:hover{
     background: #27272a;
     padding: 1.5rem;
     border: 2px solid transparent;
-    border-radius: 0 0 15px 15px; /* top-left, top-right, bottom-right, bottom-left */
+    border-radius: 0 0 15px 15px; 
     
 }
 .fitness-inner-headings:hover{
@@ -646,8 +646,8 @@ footer .column > a:hover{
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
+    align-items: center;
+    justify-content: center;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -667,7 +667,6 @@ footer .column > a:hover{
     margin-top: 15px;
 }
 
-/* Additional styles for responsiveness */
 @media (max-width: 600px) {
     .panel {
         width: 80%;
